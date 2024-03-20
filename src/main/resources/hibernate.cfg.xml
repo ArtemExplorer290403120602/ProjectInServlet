@@ -4,11 +4,8 @@
 
 <hibernate-configuration>
     <session-factory>
-<<<<<<< HEAD
+
         <property name="connection.url">jdbc:postgresql://localhost:5432/project_servlet</property>
-=======
-        <property name="connection.url">jdbc:postgresql://localhost:5432/c71_database</property>
->>>>>>> origin/master
         <property name="connection.driver_class">org.postgresql.Driver</property>
         <property name="connection.username">postgres</property>
         <property name="connection.password">root</property>
@@ -17,12 +14,9 @@
         <property name="show_sql">true</property>
         <property name="format_sql">true</property>
 
-<<<<<<< HEAD
+
         <mapping class="com.projectServlet.model.User"/>
         <mapping class="com.projectServlet.model.Security"/>
         <mapping class="com.projectServlet.model.Role"/>
-=======
-        <mapping class="com.spring.model.User"/>
->>>>>>> origin/master
     </session-factory>
 </hibernate-configuration>
