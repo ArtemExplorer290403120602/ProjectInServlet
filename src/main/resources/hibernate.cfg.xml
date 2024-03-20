@@ -18,5 +18,6 @@
         <mapping class="com.projectServlet.model.User"/>
         <mapping class="com.projectServlet.model.Security"/>
         <mapping class="com.projectServlet.model.Role"/>
+        <mapping class="com.projectServlet.model.UserHistory"/>
     </session-factory>
 </hibernate-configuration>
